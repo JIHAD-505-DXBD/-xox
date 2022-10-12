@@ -3,6 +3,7 @@
 
 
 
+
 💥THS TOLL FREE INJOY 💥@everyone
 Rendom clone pak.bd.indiyan.namvar cloning💥
 
@@ -22,6 +23,6 @@ pkg install git
 
 pip install rich
 
-https://github.com/💥JIHAD-505-DXBD/-xox.git
+git clone https://github.com/JIHAD-505-DXBD/-xox.git
 cd -xox
-python 💥xox.py
+python xox.py
